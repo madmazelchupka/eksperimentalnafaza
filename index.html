@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Pronađi Miću</title>
+  <link rel="icon" href="images/favicon-paw.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awasome -->
+  <script src="https://kit.fontawesome.com/30b03cee5d.js" crossorigin="anonymous"></script>
+  <!--load all styles -->
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <section id="nav-section" class="colored-section">
+    <div class="container-fluid">
+      <!-- Nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logo-paw1.png" alt="" width="80" height="50" class="d-inline-block align-top"><strong> Pronađi</strong> Miću</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Početna</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">LJUBIMCI</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="izgubljeni-ljubimci.html">Izgubljeni ljubimci</a></li>
+                <li><a class="dropdown-item" href="pronadjeni-ljubimci.html">Pronađeni ljubimci</a></li>
+                <li><a class="dropdown-item" href="udomi-ljubimca.html">Udomi ljubimca</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#login">LOGIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-partners">Partneri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">O nama</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Title Section -->
+  <section id="title" class="colored-section">
+    <div class="container-fluid">
+
+        <div class="row title-section">
+
+        <div class="title-circles col-lg-4 col-md-6">
+          <a href="izgubljeni-ljubimci.html" class="card-link-1">
+            <div class="card">
+              <img src="images/lost-pet-cropped.png" class="card-img-top" alt="lost-pet-card">
+              <div class="card-body">
+                <h5 class="card-title">Izgubljeni ljubimci</h5>
+                <p class="card-text">Izgubili ste ljubimca!? Pomoći ćemo Vam da ga nađete.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="title-circles col-lg-4 col-md-6">
+          <a href="pronadjeni-ljubimci.html" class="card-link-1">
+            <div class="card">
+              <img src="images/found-pet-cropped.png" class="card-img-top" alt="found-pet-card">
+              <div class="card-body">
+                <h5 class="card-title">Pronađeni ljubimci</h5>
+                <p class="card-text">Pronašli ste izgubljenog ljubimca?! Pomoćićemo Vam da ga vratite njegovoj porodici.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="title-circles col-lg-4">
+          <a href="udomi-ljubimca.html" class="card-link-1">
+            <div class="card">
+              <img src="images/adopt-pet-cropped-2.png" class="card-img-top" alt="adopt-pet-card">
+              <div class="card-body">
+                <h5 class="card-title">Udomi ljubimca</h5>
+                <p class="card-text">Udomite psa ili mačku. Pružite im ljubav i dom.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Login Section -->
+  <section id="login" class="white-section">
+    <div class="container-fluid">
+
+      <h1>Prijavite se još danas.</h1>
+
+      <div class="row">
+        <div class="login-form col-12">
+
+          <div class="form-floating-sm mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+          </div>
+          <div class="form-floating-sm">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          </div>
+          <br>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1" style="font-size:1rem;font-weight:normal;">Zapamti me</label>
+          </div>
+
+          <button type="submit" class="btn btn-dark btn-lg login-btn">Prijavi se</button>
+          <button type="button" class="btn btn-outline-dark btn-lg signup-btn">Registruj se</button>
+
+          <div class="form-divider"></div>
+          <a class="form-item-1" href="#"> <span class="span-1">Novi ste?</span> Registrujte se ovde.</a>
+          <a class="form-item-2" href="#"> Zaboravili ste šifru?</a>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+
+  <section id="our-partners" class="colored-section">
+    <div class="container-fluid">
+
+      <h1>Naši partneri.</h1>
+      <br>
+      <h5>Zahvalni smo im što nas podržavaju. Bez njih ne bismo bili ovde.</h5>
+
+      <div class="row partners-section">
+
+        <div class="partner col-lg-3 col-md-6">
+          <a href="#">
+            <div class="card">
+              <img src="images/partners-logo-felix.png" class="card-img-partner" alt="partner-logo-felix">
+            </div>
+          </a>
+        </div>
+
+        <div class="partner col-lg-3 col-md-6">
+          <a href="#">
+            <div class="card">
+              <img src="images/partners-logo-trixie2.png" class="card-img-partner" alt="partner-logo-trixie">
+            </div>
+          </a>
+        </div>
+
+        <div class="partner col-lg-3 col-md-6">
+          <a href="#">
+            <div class="card">
+              <img src="images/partners-logo-n&d.png" class="card-img-partner" alt="partner-logo-n&d">
+            </div>
+          </a>
+        </div>
+
+        <div class="partner col-lg-3 col-md-6">
+          <a href="#">
+            <div class="card">
+              <img src="images/partners-logo-josera2.png" class="card-img-partner" alt="partner-logo-josera">
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="white-section">
+    <div class="container-fluid">
+
+      <h1>O nama.</h1>
+
+      <div class="row about-us">
+        <div class="about-mica col-lg-6 col-md-6">
+          <h3 class="about-title">Ko stoji iza "Miće"?</h3>
+          <br>
+          <p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <div class="contact-info col-lg-6 col-md-6">
+          <h4 class="contact-title">Email address: </h4>
+          <p class="contact-text">pronadjimicu@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer id="footer" class="colored-section">
+    <div class="container-fluid">
+
+      <a href="#" class="a-footer"><i class="fab fa-twitter social-icon fa-1x"></i></a>
+      <a href="#" class="a-footer"><i class="fab fa-facebook-f social-icon fa-1x"></i></a>
+      <a href="#" class="a-footer"><i class="fab fa-instagram social-icon fa-1x"></i></a>
+      <a href="#" class="a-footer"> <i class="fas fa-envelope social-icon fa-1x"></i></a>
+
+      <!-- Izbrisi ovo fa-1x ako ce ostati ove velicine, nepotrebno je, jer je 1x po defaultu velicina -->
+      <p>© Copyright 2021 Jelena Ilić 2016201687</p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

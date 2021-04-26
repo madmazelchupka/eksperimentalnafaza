@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat-Black', sans-serif;
+  color: #000;
+}
+
+/* Colored Sections */
+.colored-section {
+  background-color: #f4d160;
+  /* background-color: #74b49b; */
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Containers*/
+.container-fluid {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Navbar Section */
+#nav-section .container-fluid {
+  padding: 2% 15% 3%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Title Section */
+.title-section {
+  margin-left: 10%;
+}
+
+.card {
+  width: 16rem;
+  border-style: none;
+  margin-bottom: 1rem;
+  opacity: 1;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  background-color: #f4d160;
+}
+
+.card-img-top {
+  width: 100%;
+  margin: auto;
+}
+
+.card:hover {
+  opacity: 0.7;
+}
+
+.card-title {
+  color: #1b262c;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-link-1 {
+  text-decoration: none;
+}
+
+/* Login Section */
+.login-form {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.form-control {
+  width: 30%;
+  margin: auto;
+}
+
+.login-btn {
+  margin: 2% 1%;
+  /* background-color: #206a5d; */
+  color: #fff;
+}
+
+.login-btn:hover {
+  color: #fbeeac;
+}
+
+.signup-btn {
+  margin: 2% 1%;
+}
+
+.span-1 {
+  color: #000;
+  font-weight: normal;
+}
+
+.form-item-1 {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.form-item-1:hover {
+  color: #fbeeac;
+}
+
+.form-item-2 {
+  color: #000;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.form-item-2:hover {
+  color: #fbeeac;
+}
+
+/* Partners section */
+.partners-section {
+  margin: 8% 10% 3%;
+}
+
+.card-img-partner {
+  width: 50%;
+  margin: auto;
+}
+
+/* About Us Section */
+#about-us {
+  background-color: #fff;
+}
+
+.about-us {
+  margin-top: 2rem;
+}
+
+.about-text {
+  text-align: justify;
+  width: 25rem;
+  margin-left: 8rem;
+}
+
+.contact-info {
+  margin-top: 6rem;
+}
+
+
+/* Footer */
+#footer {
+  font-size: 1rem;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.a-footer {
+  color: #000;
+}
+
+.a-footer:hover {
+  color: #fbeeac;
+}
