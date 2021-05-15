@@ -17,6 +17,7 @@
 
   <!-- Font Awasome -->
   <script src="https://kit.fontawesome.com/30b03cee5d.js" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <!--load all styles -->
 
   <!-- Bootstrap Scripts -->
@@ -39,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Početna</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">LJUBIMCI</a>
@@ -76,7 +77,7 @@
               <img src="images/lost-pet-cropped.png" class="card-img-top" alt="lost-pet-card">
               <div class="card-body">
                 <h5 class="card-title">Izgubljeni ljubimci</h5>
-                <p class="card-text">Izgubili ste ljubimca!? Pomoći ćemo Vam da ga nađete.</p>
+                <p class="card-text">Izgubili ste ljubimca? Pomoći ćemo Vam da ga nađete.</p>
               </div>
             </div>
           </a>
@@ -88,7 +89,7 @@
               <img src="images/found-pet-cropped.png" class="card-img-top" alt="found-pet-card">
               <div class="card-body">
                 <h5 class="card-title">Pronađeni ljubimci</h5>
-                <p class="card-text">Pronašli ste izgubljenog ljubimca?! Pomoćićemo Vam da ga vratite njegovoj porodici.</p>
+                <p class="card-text">Pronašli ste izgubljenog ljubimca? Pomoćićemo Vam da ga vratite njegovoj porodici.</p>
               </div>
             </div>
           </a>
@@ -100,7 +101,7 @@
               <img src="images/adopt-pet-cropped-2.png" class="card-img-top" alt="adopt-pet-card">
               <div class="card-body">
                 <h5 class="card-title">Udomi ljubimca</h5>
-                <p class="card-text">Udomite psa ili mačku. Pružite im ljubav i dom.</p>
+                <p class="card-text">Želite da udomite napuštenu životinju? Pomoćićemo Vam da im pružite ljubav i dom.</p>
               </div>
             </div>
           </a>
@@ -122,23 +123,24 @@
         <div class="login-form col-12">
 
           <div class="form-floating-sm mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+            <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
           </div>
           <div class="form-floating-sm">
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
           </div>
           <br>
           <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" style="float: inherit;margin-left: auto;">
             <label class="form-check-label" for="exampleCheck1" style="font-size:1rem;font-weight:normal;">Zapamti me</label>
           </div>
 
-          <button type="submit" class="btn btn-dark btn-lg login-btn">Prijavi se</button>
-          <button type="button" class="btn btn-outline-dark btn-lg signup-btn">Registruj se</button>
+          <button type="button" id="submit-btn-login" class="btn btn-dark btn-lg login-btn">Prijavi se</button>
+          <button type="button" id="signup-btn-login" class="btn btn-outline-dark btn-lg signup-btn">Registruj se</button>
 
           <div class="form-divider"></div>
-          <a class="form-item-1" href="#"> <span class="span-1">Novi ste?</span> Registrujte se ovde.</a>
           <a class="form-item-2" href="#"> Zaboravili ste šifru?</a>
+          <!--<a class="form-item-1" href="#"> <span class="span-1">Novi ste?</span> Registrujte se ovde.</a>-->
+
         </div>
 
       </div>
@@ -217,15 +219,17 @@
     </div>
   </section>
 
+  <!--External script-->
+  <script src="index.js" charset="utf-8"></script>
 
   <!-- Footer -->
   <footer id="footer" class="colored-section">
     <div class="container-fluid">
 
-      <a href="#" class="a-footer"><i class="fab fa-twitter social-icon fa-1x"></i></a>
-      <a href="#" class="a-footer"><i class="fab fa-facebook-f social-icon fa-1x"></i></a>
-      <a href="#" class="a-footer"><i class="fab fa-instagram social-icon fa-1x"></i></a>
-      <a href="#" class="a-footer"> <i class="fas fa-envelope social-icon fa-1x"></i></a>
+      <a href="https://www.twitter.com/" class="a-footer"><i class="fab fa-twitter social-icon fa-1x"></i></a>
+      <a href="https://www.facebook.com/" class="a-footer"><i class="fab fa-facebook-f social-icon fa-1x"></i></a>
+      <a href="https://www.instagram.com/" class="a-footer"><i class="fab fa-instagram social-icon fa-1x"></i></a>
+      <a href="https://www.gmail.com/" class="a-footer"> <i class="fas fa-envelope social-icon fa-1x"></i></a>
 
       <!-- Izbrisi ovo fa-1x ako ce ostati ove velicine, nepotrebno je, jer je 1x po defaultu velicina -->
       <p>© Copyright 2021 Jelena Ilić 2016201687</p>

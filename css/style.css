@@ -103,12 +103,11 @@ p {
 
 .login-btn {
   margin: 2% 1%;
-  /* background-color: #206a5d; */
   color: #fff;
 }
 
 .login-btn:hover {
-  color: #fbeeac;
+  color: #b3b3b3;
 }
 
 .signup-btn {
@@ -127,7 +126,7 @@ p {
 }
 
 .form-item-1:hover {
-  color: #fbeeac;
+  color: #b3b3b3;
 }
 
 .form-item-2 {
@@ -137,8 +136,14 @@ p {
 }
 
 .form-item-2:hover {
-  color: #fbeeac;
+  color: #b3b3b3;
 }
+
+.form-check-input:checked {
+  background-color: #000;
+}
+
+
 
 /* Partners section */
 .partners-section {
@@ -167,6 +172,45 @@ p {
 
 .contact-info {
   margin-top: 6rem;
+}
+
+/*User Section*/
+#user-section {
+  margin-bottom: 10rem;
+}
+.container-user {
+  display: inline-block;
+  float: left;
+}
+
+.container-user .card-body {
+  text-align: inherit;
+}
+
+.container-welcome {
+  width: 600px;
+  display: inline-block;
+  float: inherit;
+  /*padding-top: 3rem;*/
+}
+
+.container-side {
+  display: inline-block;
+  float: right;
+  text-align: left;
+}
+
+.container-side .side-text{
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.side-text:hover {
+  color: #000;
+}
+
+.user-img {
+  width: 10rem;
 }
 
 
