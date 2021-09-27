@@ -5,7 +5,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat-Black', sans-serif;
-  color: #000;
+  color: #212529;
 }
 
 h1 {
@@ -18,13 +18,12 @@ h5 {
 
 p {
   font-family: 'Montserrat-Black', sans-serif;
-  color: #000;
+  color: #212529;
 }
 
 /* Colored Sections */
 .colored-section {
   background-color: #f4d160;
-  /* background-color: #74b49b; */
 }
 
 .white-section {
@@ -86,7 +85,9 @@ p {
   text-decoration: none;
 }
 
-/* Login Section */
+
+
+/* Login & Signup Section */
 .login-form {
   text-align: center;
   padding-top: 2rem;
@@ -130,7 +131,8 @@ p {
 }
 
 .form-item-2 {
-  color: #000;
+  color: #343a40;
+  font-weight: bold;
   text-decoration: none;
   padding-left: 1rem;
 }
@@ -166,8 +168,6 @@ p {
 
 .about-text {
   text-align: justify;
-  width: 25rem;
-  margin-left: 8rem;
 }
 
 .contact-info {
@@ -176,41 +176,29 @@ p {
 
 /*User Section*/
 #user-section {
-  margin-bottom: 10rem;
-}
-.container-user {
-  display: inline-block;
-  float: left;
+  padding-bottom: 5rem;
 }
 
-.container-user .card-body {
-  text-align: inherit;
+.info-user {
+  padding-bottom: 3rem;
 }
 
-.container-welcome {
-  width: 600px;
-  display: inline-block;
-  float: inherit;
-  /*padding-top: 3rem;*/
-}
-
-.container-side {
-  display: inline-block;
-  float: right;
-  text-align: left;
-}
-
-.container-side .side-text{
-  color: #6c757d;
+.side-text{
+  color:/* #6c757d #343a40;*/ #505962;
   text-decoration: none;
 }
 
 .side-text:hover {
-  color: #000;
+  color: #212529;
 }
 
 .user-img {
-  width: 10rem;
+  width: 8rem;
+}
+
+/*Add Section*/
+#ad-section {
+    padding-bottom: 5rem;
 }
 
 
@@ -224,9 +212,15 @@ p {
 }
 
 .a-footer {
-  color: #000;
+  color:  #212529;
 }
 
 .a-footer:hover {
   color: #fbeeac;
+}
+
+/*Uslovi Korišćenja*/
+.uslovi-koriscenja {
+  margin: 2rem 2rem;
+  text-align: justify;
 }

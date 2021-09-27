@@ -33,14 +33,14 @@
     <div class="container-fluid">
       <!-- Nav bar -->
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="images/logo-paw1.png" alt="" width="80" height="50" class="d-inline-block align-top"><strong> Pronađi</strong> Miću</a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo-paw1.png" alt="" width="80" height="50" class="d-inline-block align-top"><strong>Pronađi</strong> Miću</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+              <a class="nav-link active" aria-current="page" href="index.html">POČETNA</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">LJUBIMCI</a>
@@ -54,10 +54,10 @@
               <a class="nav-link" href="#login">LOGIN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#our-partners">Partneri</a>
+              <a class="nav-link" href="#our-partners">PARTNERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-us">O nama</a>
+              <a class="nav-link" href="#about-us">O NAMA</a>
             </li>
           </ul>
         </div>
@@ -67,16 +67,16 @@
 
   <!-- Title Section -->
   <section id="title" class="colored-section">
-    <div class="container-fluid">
+    <div class="container-fluid" align="center">
 
-        <div class="row title-section">
+      <div class="row title-section">
 
         <div class="title-circles col-lg-4 col-md-6">
           <a href="izgubljeni-ljubimci.html" class="card-link-1">
             <div class="card">
               <img src="images/lost-pet-cropped.png" class="card-img-top" alt="lost-pet-card">
               <div class="card-body">
-                <h5 class="card-title">Izgubljeni ljubimci</h5>
+                <h2 class="card-title">Izgubljeni ljubimci</h2>
                 <p class="card-text">Izgubili ste ljubimca? Pomoći ćemo Vam da ga nađete.</p>
               </div>
             </div>
@@ -88,7 +88,7 @@
             <div class="card">
               <img src="images/found-pet-cropped.png" class="card-img-top" alt="found-pet-card">
               <div class="card-body">
-                <h5 class="card-title">Pronađeni ljubimci</h5>
+                <h2 class="card-title">Pronađeni ljubimci</h2>
                 <p class="card-text">Pronašli ste izgubljenog ljubimca? Pomoćićemo Vam da ga vratite njegovoj porodici.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@
             <div class="card">
               <img src="images/adopt-pet-cropped-2.png" class="card-img-top" alt="adopt-pet-card">
               <div class="card-body">
-                <h5 class="card-title">Udomi ljubimca</h5>
+                <h2 class="card-title">Udomi ljubimca</h2>
                 <p class="card-text">Želite da udomite napuštenu životinju? Pomoćićemo Vam da im pružite ljubav i dom.</p>
               </div>
             </div>
@@ -115,47 +115,48 @@
 
   <!-- Login Section -->
   <section id="login" class="white-section">
-    <div class="container-fluid">
+    <form class="" action="index.html" method="post">
+      <div class="signin container-fluid">
 
-      <h1>Prijavite se još danas.</h1>
+        <h1>Već imate nalog?</h1>
 
-      <div class="row">
-        <div class="login-form col-12">
+        <div class="row">
+          <div class="login-form col-12">
 
-          <div class="form-floating-sm mb-3">
-            <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+            <div class="form-floating-sm mb-3">
+              <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+            </div>
+            <div class="form-floating-sm">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            </div>
+            <br>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" style="float: inherit;margin-left: auto;">
+              <label class="form-check-label" for="exampleCheck1" style="font-size:1rem;font-weight:normal;">Zapamti me</label>
+            </div>
+
+            <button type="button" id="submit-btn-login" class="btn btn-dark btn-lg login-btn">Prijavi se</button>
+            <button type="button" id="signup-btn-login" class="btn btn-outline-dark btn-lg signup-btn" onclick="window.open('signup.html', '_blank', 'height=700, width=900, top=200, left=500')">Registruj se</button>
+
+            <div class="form-divider"></div>
+            <a class="form-item-2" href="#"> Zaboravili ste šifru?</a>
+
           </div>
-          <div class="form-floating-sm">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          </div>
-          <br>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" style="float: inherit;margin-left: auto;">
-            <label class="form-check-label" for="exampleCheck1" style="font-size:1rem;font-weight:normal;">Zapamti me</label>
-          </div>
-
-          <button type="button" id="submit-btn-login" class="btn btn-dark btn-lg login-btn">Prijavi se</button>
-          <button type="button" id="signup-btn-login" class="btn btn-outline-dark btn-lg signup-btn">Registruj se</button>
-
-          <div class="form-divider"></div>
-          <a class="form-item-2" href="#"> Zaboravili ste šifru?</a>
-          <!--<a class="form-item-1" href="#"> <span class="span-1">Novi ste?</span> Registrujte se ovde.</a>-->
 
         </div>
 
       </div>
-    </div>
-
-    </div>
+    </form>
   </section>
 
 
+  <!--  Partner Section  -->
   <section id="our-partners" class="colored-section">
     <div class="container-fluid">
 
       <h1>Naši partneri.</h1>
       <br>
-      <h5>Zahvalni smo im što nas podržavaju. Bez njih ne bismo bili ovde.</h5>
+      <h5>Bez njih ne bismo bili ovde... :)</h5>
 
       <div class="row partners-section">
 
@@ -203,16 +204,30 @@
 
       <div class="row about-us">
         <div class="about-mica col-lg-6 col-md-6">
-          <h3 class="about-title">Ko stoji iza "Miće"?</h3>
+          <h3 class="about-title">Ma ko je taj "Mića"?!</h3>
           <br>
-          <p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <div class="about-text">
+            <p >Sigurno se pitate zašto baš "Mića"? Zar nemamo svi mi nekog Miću mačka
+              ili psa lutalicu u kraju? Hehe Mislimo da da! E pa u situaciji kad je
+              voljeni ljubimac izgubljen i on je u neku ruku Mića, zar ne? :)
+              <br>
+              <br>
+              "Pronađi Miću" je nastao sa željom da obezbedimo mesto na kome ćemo objediniti
+              sve one oglase i objave za izgubljene i nađene životinje koje kruže društevnim
+              mrežama. Voleli bismo da se svi ljubimci što pre vrate svojim kućama i vlasnicima. :)
+              <br>
+              <br>
+              Počeli smo sa radom 2021.godine. Trenutno nam je cilj da čuju za nas na
+              teritoriji Beograda, ali planiramo da se čuje za nas i u ostalimm gradovima
+               Srbije. :) Iza "Pronađi Miću" stoji čitav tim ljubitelja životinja. <3 </p>
+          </div>
         </div>
 
         <div class="contact-info col-lg-6 col-md-6">
-          <h4 class="contact-title">Email address: </h4>
-          <p class="contact-text">pronadjimicu@gmail.com</p>
+          <h4 class="contact-title">Email address</h4>
+          <p class="contact-text">Možete nas kontaktirati na mejl:
+            <br>
+            pronadjimicu@gmail.com</p>
         </div>
       </div>
 
@@ -220,7 +235,8 @@
   </section>
 
   <!--External script-->
-  <script src="index.js" charset="utf-8"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="login.js"></script>
 
   <!-- Footer -->
   <footer id="footer" class="colored-section">
@@ -229,7 +245,7 @@
       <a href="https://www.twitter.com/" class="a-footer"><i class="fab fa-twitter social-icon fa-1x"></i></a>
       <a href="https://www.facebook.com/" class="a-footer"><i class="fab fa-facebook-f social-icon fa-1x"></i></a>
       <a href="https://www.instagram.com/" class="a-footer"><i class="fab fa-instagram social-icon fa-1x"></i></a>
-      <a href="https://www.gmail.com/" class="a-footer"> <i class="fas fa-envelope social-icon fa-1x"></i></a>
+      <a href="https://www.gmail.com/" class="a-footer"> <i class="fas fa-envelope social-icon fa-1x" title="pronadjimicu@gmail.com"></i></a>
 
       <!-- Izbrisi ovo fa-1x ako ce ostati ove velicine, nepotrebno je, jer je 1x po defaultu velicina -->
       <p>© Copyright 2021 Jelena Ilić 2016201687</p>

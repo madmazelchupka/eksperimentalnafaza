@@ -65,54 +65,106 @@
 
   <!--User Section-->
   <section id="user-section" class="colored-section">
+
     <div class="container-fluid">
-        <div class="container-user" style="width: 16rem;">
-          <img src="images/adopt-pet-1.jpg" class="user-img" alt="user-photo">
-          <div class="card-body">
-            <h5 id="username">Pera Petrović</h5>
-          </div>
-          <div class="card-body user-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm info-user">
+            <img src="images/avatar-user.png" class="user-img" alt="user-photo">
+            <br>
+            <br>
+            <h5 id="username">Mali Malić</h5>
+            <br>
             <h6 class="user-email">mali@gmail.com</h6>
             <h6 class="user-phone">064 1234 567</h6>
           </div>
+          <div class="col-sm-6 info-user">
+            <h1>Dobrodošli!</h1>
+            <br>
+            <br>
+            <h6>Predlažemo Vam da pregledate već postojeću bazu. <br />
+              Ukoliko ne pronađete Vašeg Miću, kliknite na dugme ispod.</h6>
+            <a href="#ad-section" class="btn btn-dark btn-lg login-btn">Kreiraj oglas</a>
+          </div>
+          <div class="col-sm info-user">
+            <a class="side-text" href="#all-user-ads"> Vaši oglasi </a><br>
+            <a class="side-text" href="#"> Izmenite podatke </a>
+          </div>
         </div>
-
-
-      <div class="container-welcome">
-        <h1>Pera, dobrodošli!</h1>
-        <h6>Predlažemo Vam da pregledate već postojeću bazu. <br /> Ukoliko ne pronađete Vašeg Miću, kliknite na dugme ispod.</h6>
-        <a href="#ad-section" class="btn btn-dark btn-lg login-btn">Kreiraj oglas</a>
       </div>
-
-      <div class="container-side">
-        <a class="side-text" href="#all-user-ads"> Vaši oglasi </a><br>
-        <a class="side-text" href="#"> Izmenite podatke </a>
-      </div>
+    </div>
 
     </div>
   </section>
 
+  <!--Add Section-->
   <section id="ad-section" class="white-section">
     <div class="container-fluid">
 
+      <h1>Unesi podatke oglasa.</h1>
+      <br>
+      <br>
+      <form class="" action="user-page.html" method="post">
+        <div class="row">
+          <div class="ad-form col-12">
+            <div class="form-floating-sm mb-3">
+              <input type="file" class="form-control" id="pet-img" accept="image/*">
+            </div>
+            <div class="form-floating-sm mb-3">
+              <input type="text" class="form-control" id="pet-name" placeholder="Unesite ime ljubimca">
+            </div>
+            <div class="form-floating-sm mb-3">
+              <input type="text" class="form-control" id="pet-age" placeholder="Unesite rasu ljubimca">
+            </div>
+            <div class="form-floating-sm mb-3">
+              <input type="text" class="form-control" id="pet-age" placeholder="Unesite starost ljubimca (*u godinama)">
+            </div>
+            <div class="form-floating-sm mb-3">
+              <select class="form-control form-select" id="pet-location">
+                <option value="" selected>Izaberi lokaciju ljubimca</option>
+                <option value="1">Barajevo</option>
+                <option value="2">Voždovac</option>
+                <option value="3">Vračar</option>
+                <option value="4">Grocka</option>
+                <option value="5">Zvezdara</option>
+                <option value="6">Zemun</option>
+                <option value="7">Lazarevac</option>
+                <option value="8">Mladenovac</option>
+                <option value="9">Novi Beograd</option>
+                <option value="10">Obrenovac</option>
+                <option value="11">Palilula</option>
+                <option value="12">Rakovica</option>
+                <option value="13">Savski venac</option>
+                <option value="14">Sopot</option>
+                <option value="15">Stari grad</option>
+                <option value="16">Surčin</option>
+                <option value="17">Čukarica</option>
+              </select>
+            </div>
+            <div class="form-floating-sm mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Napišite nešto više o ljubimcu..."></textarea>
+            </div>
 
+            <button type="button" id="submit-btn-login" onclick="addElement" class="btn btn-dark btn-lg post-btn">Postavi oglas</button>
+
+          </div>
+        </div>
+      </form>
     </div>
   </section>
 
   <section id="all-user-ads" class="colored-section">
     <div class="container-fluid">
+        <h1>Vaši aktivni oglasi.</h1>
 
-    </div>
-  </section>
+        <div class="user-active-ads">
 
-  <section id="signup-section">
-    <div class="container-fluid">
-
+        </div>
     </div>
   </section>
 
   <!--External script-->
-  <script src="index.js" charset="utf-8"></script>
+  <script type="text/javascript" src="index.js"></script>
 
   <!-- Footer -->
   <footer id="footer" class="colored-section">
