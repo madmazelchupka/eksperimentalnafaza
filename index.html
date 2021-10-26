@@ -120,7 +120,7 @@
 
         <h1>Već imate nalog?</h1>
 
-        <div class="row">
+        <div class="row login-div">
           <div class="login-form col-12">
 
             <div class="form-floating-sm mb-3">
@@ -130,17 +130,13 @@
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             </div>
             <br>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1" style="float: inherit;margin-left: auto;">
-              <label class="form-check-label" for="exampleCheck1" style="font-size:1rem;font-weight:normal;">Zapamti me</label>
-            </div>
 
             <button type="button" id="submit-btn-login" class="btn btn-dark btn-lg login-btn">Prijavi se</button>
             <button type="button" id="signup-btn-login" class="btn btn-outline-dark btn-lg signup-btn" onclick="window.open('signup.html', '_blank', 'height=700, width=900, top=200, left=500')">Registruj se</button>
 
             <div class="form-divider"></div>
-            <a class="form-item-2" href="#"> Zaboravili ste šifru?</a>
-
+            <a class="form-item-2" href="zaboravljena-sifra.html"> Zaboravili ste šifru?</a>
+            <p>email: user@gmail.com pass: user123</p>
           </div>
 
         </div>
@@ -235,8 +231,8 @@
   </section>
 
   <!--External script-->
-  <script type="text/javascript" src="index.js"></script>
-  <script type="text/javascript" src="login.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/login.js"></script>
 
   <!-- Footer -->
   <footer id="footer" class="colored-section">

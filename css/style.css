@@ -102,6 +102,10 @@ p {
   margin: auto;
 }
 
+.login-div{
+  margin-top: 3rem;
+}
+
 .login-btn {
   margin: 2% 1%;
   color: #fff;
@@ -174,6 +178,37 @@ p {
   margin-top: 6rem;
 }
 
+
+/* Footer */
+#footer {
+  font-size: 1rem;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.a-footer {
+  color:  #212529;
+}
+
+.a-footer:hover {
+  color: #fbeeac;
+}
+
+/*Uslovi Korišćenja*/
+.uslovi-koriscenja {
+  margin: 2rem 2rem;
+  text-align: justify;
+}
+
+/* Pet pages*/
+.proba {
+  padding-left: 3rem;
+}
+
+/*USER PAGE*/
+
 /*User Section*/
 #user-section {
   padding-bottom: 5rem;
@@ -198,29 +233,32 @@ p {
 
 /*Add Section*/
 #ad-section {
-    padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
-
-/* Footer */
-#footer {
-  font-size: 1rem;
+.form-add {
+  margin-top: 3rem;
 }
 
-.social-icon {
-  margin: 20px 10px;
-}
-
-.a-footer {
-  color:  #212529;
-}
-
-.a-footer:hover {
-  color: #fbeeac;
-}
-
-/*Uslovi Korišćenja*/
-.uslovi-koriscenja {
+/* All User Ads*/
+.up-card {
+  display: inline-block;
   margin: 2rem 2rem;
-  text-align: justify;
+}
+
+.user-active-ads {
+  margin-top: 3rem;
+}
+
+
+/* Zaboravljena Šifra */
+#floatingEmailForgotten {
+  width: 20%;
+}
+.forgotten-password {
+  margin: 10rem 0;
+}
+
+.request-form {
+  margin-top: 3rem;
 }

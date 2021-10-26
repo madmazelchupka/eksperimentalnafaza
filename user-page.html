@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+              <a class="nav-link active" aria-current="page" href="index.html">POČETNA</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">LJUBIMCI</a>
@@ -52,10 +52,10 @@
               <a class="nav-link" href="index.html#login">LOGIN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#our-partners">Partneri</a>
+              <a class="nav-link" href="index.html#our-partners">PARTNERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#about-us">O nama</a>
+              <a class="nav-link" href="index.html#about-us">O NAMA</a>
             </li>
           </ul>
         </div>
@@ -102,9 +102,8 @@
     <div class="container-fluid">
 
       <h1>Unesi podatke oglasa.</h1>
-      <br>
-      <br>
-      <form class="" action="user-page.html" method="post">
+
+      <form class="form-add" action="user-page.html" method="post">
         <div class="row">
           <div class="ad-form col-12">
             <div class="form-floating-sm mb-3">
@@ -114,7 +113,7 @@
               <input type="text" class="form-control" id="pet-name" placeholder="Unesite ime ljubimca">
             </div>
             <div class="form-floating-sm mb-3">
-              <input type="text" class="form-control" id="pet-age" placeholder="Unesite rasu ljubimca">
+              <input type="text" class="form-control" id="pet-breed" placeholder="Unesite rasu ljubimca">
             </div>
             <div class="form-floating-sm mb-3">
               <input type="text" class="form-control" id="pet-age" placeholder="Unesite starost ljubimca (*u godinama)">
@@ -142,7 +141,7 @@
               </select>
             </div>
             <div class="form-floating-sm mb-3">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Napišite nešto više o ljubimcu..."></textarea>
+              <textarea class="form-control" id="pet-description" rows="3" placeholder="Napišite nešto više o ljubimcu..."></textarea>
             </div>
 
             <button type="button" id="submit-btn-login" onclick="addElement" class="btn btn-dark btn-lg post-btn">Postavi oglas</button>
@@ -155,16 +154,39 @@
 
   <section id="all-user-ads" class="colored-section">
     <div class="container-fluid">
-        <h1>Vaši aktivni oglasi.</h1>
+      <h1>Vaši aktivni oglasi.</h1>
 
-        <div class="user-active-ads">
+      <div class="user-active-ads" align="center">
 
+
+        <div id="lost-pet-card" class="card up-card">
+          <img src="images/lost-pet-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ime životinje</h5>
+            <p class="card-text">Ovde napisati opis životinje, gde je izgubljena i slično.</p>
+            <a href="#" class="btn btn-outline-dark btn-lg">Pogledaj</a>
+          </div>
         </div>
+
+
+
+        <div id="lost-pet-card" class="card up-card">
+          <img src="images/lost-pet-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ime životinje</h5>
+            <p class="card-text">Ovde napisati opis životinje, gde je izgubljena i slično.</p>
+            <a href="#" class="btn btn-outline-dark btn-lg">Pogledaj</a>
+          </div>
+        </div>
+
+
+      </div>
     </div>
   </section>
 
   <!--External script-->
-  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
 
   <!-- Footer -->
   <footer id="footer" class="colored-section">
