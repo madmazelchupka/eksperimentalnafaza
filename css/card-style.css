@@ -1,4 +1,10 @@
 .img-av {
-  max-width: ;
-  max-height: ;
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
+/*Uslovi korišćenja*/
+.uslovi-koriscenja {
+  text-align: center;
+  padding: 3px 15px;
 }

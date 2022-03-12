@@ -1,5 +1,4 @@
-
-//LOGIN
+// Login
 
 document.getElementById("submit-btn-login").addEventListener("click", function loginValidation() {
   var email = document.getElementById("floatingEmail").value;
